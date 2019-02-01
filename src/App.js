@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import List from './List';
+import AddingMachine from './AddingMachine';
+import ArticleTable from './ArticleTable';
+import articles from './data/articles.json';
 import Article from './Article';
 
 class App extends Component {
   render() {
-
-    const array = [
-      { firstName: "April", lastName: "Bingham" },
-      { firstName: "Tom", lastName: "Cruise" },
-      { firstName: "Mickey", lastName: "Mouse" }
-    ];
 
     const title = "The Statue of Liberty's torch heads to new museum";
     const date = "November 22, 2018";
@@ -17,8 +14,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/*<List list={array} />*/}
-        <div className="Assignment 3">
+        <ArticleTable articles={articles} />
+        {/*<div className="Assignment 3">
             <Article title={title} date={date} author={author}>
                 <div>
                     <p>
@@ -44,7 +41,7 @@ class App extends Component {
                     </p>
                 </div>
             </Article>
-        </div>
+        </div>*/}
       </div>
 
     );
