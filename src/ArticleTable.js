@@ -4,7 +4,19 @@ import ArticleTableRow from './ArticleTableRow';
 
 const ArticleTable = ({ articles }) => (
 
-  <table>
+  <table border="1">
+    <caption>This is a table of articles</caption>
+    <thead>
+    <tr>
+      <th>Title</th>
+      <th>Selected state</th>
+      <th>Author</th>
+      <th>Date</th>
+      <th>Short Text</th>
+    </tr>
+    </thead>
+    <tbody>
+
   {
     // this iterates through the articles JSON and
     // calls your ArticleTableRow component for each article
@@ -18,6 +30,7 @@ const ArticleTable = ({ articles }) => (
       />
     })
   }
+    </tbody>
   </table>
 
 );

@@ -3,14 +3,14 @@ import List from './List';
 import AddingMachine from './AddingMachine';
 import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
-import Article from './Article';
+// import Article from './Article';
 
 class App extends Component {
   render() {
 
-    const title = "The Statue of Liberty's torch heads to new museum";
+    /*const title = "The Statue of Liberty's torch heads to new museum";
     const date = "November 22, 2018";
-    const author = "Kate Farley";
+    const author = "Kate Farley";*/
 
     return (
       <div className="App">
