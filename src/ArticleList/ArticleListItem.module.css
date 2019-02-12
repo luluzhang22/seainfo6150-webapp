@@ -1,0 +1,19 @@
+.articleItem{
+    background-color: #EEE;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 1.8em;
+    border: 2px solid #CB0202;
+}
+.title{
+    color: #CB0000;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.author{
+    margin-top: 2em;
+    text-align: right;
+}
+.date{
+    font-weight: bold;
+}

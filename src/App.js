@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import Text from './Text';
+// import Text from './Text';
 import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
+import ArticleList from './ArticleList/ArticleList'
 // import Article from './Article';
 
 class App extends Component {
   render() {
 
-    /*const title = "The Statue of Liberty's torch heads to new museum";
+    /*Assignment 3
+    const title = "The Statue of Liberty's torch heads to new museum";
     const date = "November 22, 2018";
     const author = "Kate Farley";*/
 
     return (
       <div className="App">
-        <Text />
+        {/*<Text />*/}
+        <ArticleList articles={articles}/>
         <ArticleTable articles={articles} />
         {/*<div className="Assignment 3">
             <Article title={title} date={date} author={author}>
@@ -43,7 +46,6 @@ class App extends Component {
             </Article>
         </div>*/}
       </div>
-
     );
   }
 }

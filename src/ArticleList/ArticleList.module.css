@@ -1,0 +1,7 @@
+.articles {
+    background: #999;
+    margin: 60px;
+    padding: 60px;
+    list-style-type: none;
+    border: dashed 1px;
+}

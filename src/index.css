@@ -22,6 +22,9 @@ code {
     monospace;
 }
 
-table {
-  font-family: "Lobster", cursive;
+table, th, td {
+  /*font-family: "Lobster", cursive;*/
+    border: 1px solid;
 }
+
+
