@@ -4,7 +4,7 @@ import ArticleTableRow from './ArticleTableRow';
 
 const ArticleTable = ({ articles }) => (
 
-  <table border="1">
+  <table>
     <caption>This is a table of articles</caption>
     <thead>
     <tr>
@@ -16,7 +16,6 @@ const ArticleTable = ({ articles }) => (
     </tr>
     </thead>
     <tbody>
-
   {
     // this iterates through the articles JSON and
     // calls your ArticleTableRow component for each article

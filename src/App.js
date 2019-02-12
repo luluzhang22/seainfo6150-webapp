@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import List from './List';
-import AddingMachine from './AddingMachine';
+import Text from './Text';
 import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
 // import Article from './Article';
@@ -14,6 +13,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Text />
         <ArticleTable articles={articles} />
         {/*<div className="Assignment 3">
             <Article title={title} date={date} author={author}>
