@@ -8,7 +8,7 @@ class ArticleListItem extends React.Component {
         this.state = {
             title: props.title,
             date: props.date,
-            year: props.date,
+            year: props.year,
             author: props.author,
             shortText: props.shortText
         };
@@ -23,7 +23,7 @@ class ArticleListItem extends React.Component {
                 {this.state.shortText}
                 <div className={styles.author}>
                     <address>By: {this.state.author}</address>
-                    <time dateTime="2018" className={styles.date}>{this.state.date}</time>
+                    <time dateTime={this.state.year} className={styles.date}>{this.state.date}</time>
                 </div>
             </li>
         );

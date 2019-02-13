@@ -5,7 +5,7 @@ import styles from './ArticleList.module.css';
 
 const ArticleList = ({ articles }) => (
 
-    <ol className={styles.articles}>
+    <ul className={styles.articles}>
         {
             // this iterates through the articles JSON and
             // calls your ArticleListItem component for each article
@@ -20,7 +20,7 @@ const ArticleList = ({ articles }) => (
                 />
             })
         }
-    </ol>
+    </ul>
 );
 
 ArticleList.propTypes = {
