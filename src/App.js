@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Text from './Text';
-import ArticleTable from './ArticleTable';
+// import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
 import ArticleList from './ArticleList/ArticleList'
 // import Article from './Article';
@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         {/*<Text />*/}
         <ArticleList articles={articles}/>
-        <ArticleTable articles={articles} />
+        {/*<ArticleTable articles={articles} />*/}
         {/*<div className="Assignment 3">
             <Article title={title} date={date} author={author}>
                 <div>
