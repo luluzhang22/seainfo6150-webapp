@@ -19,7 +19,7 @@ class ArticleListItem extends React.Component {
     render() {
         return (
             <li className={styles.articleItem}>
-                <div className={styles.articleImage}>
+                <div>
                     <ArticleImage url={this.state.url} title={this.state.title}/>
                 </div>
                 <div className={styles.articleContent}>

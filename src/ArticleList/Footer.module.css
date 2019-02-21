@@ -1,0 +1,14 @@
+.footer{
+    color: white;
+    background-color: #C90813;
+    padding: 2em 3em;
+    font-family: "Arial", cursive;
+    height: 7em;
+}
+
+.circle{
+    border: white 1px solid;
+    font-size: 0.7em;
+    border-radius: 50%;
+    vertical-align: middle;
+}

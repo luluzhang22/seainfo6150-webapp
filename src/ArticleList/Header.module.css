@@ -1,0 +1,16 @@
+.header{
+    background-color: #C90813;
+    color: white;
+    height: 10em;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 3em;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial", cursive;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
