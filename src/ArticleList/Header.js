@@ -6,23 +6,23 @@ class Header extends React.Component
     constructor()
     {
         super();
-        var today = new Date();
-        var todayDate = new Intl.DateTimeFormat('en-US', {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }).format(today);
+        let today = new Intl.DateTimeFormat('en-US',
+            {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }).format(new Date());
         this.state = {
-            todayDate: todayDate
+            today: today,
+            year: new Date().getFullYear()
         };
     }
 
     render()
     {
         return (
-
             <div className={styles.header}>
                 <div className={styles.title}>
                     The INFO6150 News
                 </div>
                 <div>
-                    <time dateTime={this.state.todayDate}>{this.state.todayDate}</time>
+                    <time dateTime={this.state.year}>{this.state.today}</time>
                 </div>
             </div>
         )
