@@ -4,10 +4,11 @@
     height: 10em;
     display: flex;
     flex-flow: row wrap;
-    padding: 0 3em;
+    padding: 0 50px;
     justify-content: space-between;
     align-items: center;
     font-family: "Arial", cursive;
+    min-width: 200px;
 }
 
 .title{

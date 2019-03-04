@@ -1,9 +1,10 @@
 .footer{
     color: white;
     background-color: #C90813;
-    padding: 2em 3em;
+    padding: 30px 50px;
     font-family: "Arial", cursive;
     height: 7em;
+    min-width: 200px;
 }
 
 .circle{
